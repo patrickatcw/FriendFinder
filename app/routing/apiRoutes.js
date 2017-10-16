@@ -19,7 +19,7 @@ module.exports = function(app) {
             }
         }
         var index = 0;
-        var value = totalDif[4];
+        var value = totalDif[0];
         for (var i = 1; i < totalDif.length; i++) {
             if (totalDif[i] < value) {
                 value = totalDif[i];
@@ -27,7 +27,7 @@ module.exports = function(app) {
           }
         }
         var match = {
-            name: friends[index].name,
+         name: friends[index].name,
             img: friends[index].image
         };
         res.json(match);

@@ -24,7 +24,8 @@ var friends = [{
   
   name: "Toothy Ted",
   scores: [5,5,5,5,5],
-  image: "ttps://c1.staticflickr.com/9/8158/7679178698_e37fd9a200_b.jpg"
+  image: "https://c1.staticflickr.com/9/8158/7679178698_e37fd9a200_b.jpg"
+  
 }];
 
 module.exports = friends;
